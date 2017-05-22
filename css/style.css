@@ -1,0 +1,165 @@
+
+/*开头*/
+.header_box {
+    width:100%;
+    height:70px;
+    border:1px solid red;
+    position: fixed;
+    z-index:9999;
+    top:0;
+}
+.header_box .header {
+    width:1200px;
+    height:45px;
+    margin: 25px auto 0;
+    border:1px solid black;
+}
+.header_box .header .logo {
+    width:285px;
+    height:100%;
+    border:1px solid red;
+    float: left;
+}
+.header_box .header .nav {
+    float: left;
+    margin-left: 216px;
+}
+.header_box .header .nav ul li {
+    float: left;
+    margin:0 23px ;
+    font-size: 16px;
+    border:1px solid red;
+    padding:11px 0;
+    border-bottom:1px solid #ffffff;
+}
+.header_box .header .nav ul li a {
+    color: #ffffff;
+}
+.header_box .header .button {
+    width:180px;
+    height:100%;
+    border:1px solid red;
+    float: right;
+}
+.header_box .header .button button {
+    width:80px;
+    height:45px;
+    border:1px solid white;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    background: none;
+    color: white;
+}
+.header_box .header .button .color_button  {
+    background: #ffffff;
+    color: #4e8cec;
+}
+.header_box .header .button button:first-child {
+    margin-left: 10px;
+}
+.header_box .header .button button:last-child {
+    float: right;
+}
+
+/*banner*/
+.banner {
+    width:100%;
+    height:700px;
+    border:1px solid red;
+    position: relative;
+    background: #4e8cec
+}
+.banner #wave {
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+}
+.banner .banner_text {
+    width:1200px;
+    height:630px;
+    position: absolute;
+    top:70px;
+    left:0;
+    right:0;
+    margin:auto;
+    border:1px solid black;
+    z-index: 9999;
+}
+.banner .wave_text {
+    width:960px;
+    height:100%;
+    margin: 0 auto;
+    border:1px solid red;
+
+}
+.banner .wave_text .wave_title {
+    font-size: 50px;
+    color: white;
+    border:1px solid red;
+    display: inline-block;
+    letter-spacing:3px;
+    margin-top: 105px;
+}
+.banner .wave_text .wava_list {
+    font-size: 24px;
+    color: white;
+    display: block;
+}
+.banner .wave_text .line_left {
+    width: 80px;
+    height: 1px;
+    background: white;
+    float: left;
+    margin: 15px 16px 0 0;
+}
+.banner .wave_text .list_f {
+    margin:65px 0 30px 0;
+}
+.banner .wave_text .list_t {
+    margin-bottom:30px;
+}
+.banner .wave_text .list_t .line_left{
+    margin-left:280px;
+}
+.banner .wave_text .list_s .line_left{
+    margin-left:525px;
+}
+.banner .wave_text .wava_list ul {
+    display: inline-block;
+}
+.banner .wave_text .wave_button {
+    width:100%;
+    text-align: center;
+    margin-top: 70px;
+}
+.banner .wave_text   .button {
+    width:206px;
+    height:59px;
+    font-size: 23px;
+    color: #258cf2;
+    background: white;
+    outline: none;
+    border-radius: 5px;
+    border:none;
+}
+/*案例分析*/
+.infor {
+    width:100%;
+}
+.infor .ts {
+    width:100%;
+    height:800px;
+    border:1px solid red;
+}
+
+/*通知栏*/
+.banner .banner_foot {
+    width:100%;
+    height:40px;
+    border:1px solid red;
+    position: absolute;
+    bottom:0;
+    background: rgba(148,186,244,0.6);
+}
