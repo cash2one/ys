@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>羽扇</title>
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-
+    <!--<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link href="css/sytyle1.css" rel="stylesheet">
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
-<!--导航-->
+<div class="box">
+    <!--导航-->
     <div class="header_box">
         <div class="header" >
             <div class="logo">
@@ -16,44 +19,48 @@
             </div>
             <div class="nav">
                 <ul>
-                    <li><a href="##">首页</a></li>
+                    <li class="active"><a href="##">首页</a></li>
                     <li><a href="##">产品介绍</a></li>
                     <li><a href="##">客户案例</a></li>
                     <li><a href="##">关于我们</a></li>
                 </ul>
             </div>
             <div class="button">
-                <button>登录</button>
-                <button class="color_button">申请使用</button>
+                <button style="cursor: pointer">登录</button>
+                <button class="color_button" style="cursor: pointer">申请使用</button>
             </div>
         </div>
     </div>
-<div class="clear"></div>
-<!--banner-->
+    <div class="clear"></div>
+    <!--banner-->
     <div class="banner">
         <div class="banner_text">
             <div class="wave_text">
-                <p class="wave_title ">国内唯一一款人工智能广告优化投放系统</p>
+                <div>
+                    <p class="wave_title ">国内唯一一款人工智能广告优化投放系统</p>
+                </div>
                 <div class="wava_list list_f">
                     <div class="line_left"></div>
-                    <ul >
+                    <ul class="notice_list_content">
+                        <li>基于效果成本的智能投放系统</li>
+                        <li>基于效果成本的智能投放系统</li>
                         <li>基于效果成本的智能投放系统</li>
                     </ul>
                 </div>
                 <div class="wava_list list_t">
                     <div class="line_left"></div>
-                    <ul >
+                    <ul id="notice_list_content">
                         <li>多维度数据监测提炼关键词</li>
                     </ul>
                 </div>
                 <div class="wava_list list_s">
                     <div class="line_left"></div>
-                    <ul >
+                    <ul id="notice_list_content">
                         <li>能自助学习的广告优化投放引擎</li>
                     </ul>
                 </div>
                 <div class="wave_button">
-                    <button class="button"> 申请免费体验</button>
+                    <button style="cursor: pointer" class="button"> 申请免费体验</button>
                 </div>
 
             </div>
@@ -66,26 +73,375 @@
 
         </div>
     </div>
-<!--信息-->
+    <!--信息-->
     <div class="infor">
         <div class="ts">
-            <div class="ts_text">
-                <div class="ts_box">
-                    <p>羽扇如何帮助企业用更少的成本，获取更好的效果</p>
-                    <p>羽扇是国内首款致力于人工智能广告投放的系统</p>
-                    <p>通过强大的后台统计算法，帮助企业提升广告投放表现、降低人力成本</p>
-                </div>
+            <p >羽扇如何帮助企业用更少的成本，获取更好的效果?</p>
+            <p>羽扇是国内首款致力于人工智能广告投放的系统</p>
+            <p>通过强大的后台统计算法，帮助企业提升广告投放表现、降低人力成本</p>
+        </div>
+        <div class="inde1">
+            <div class="content">
+                <h2>提升投放效果</h2>
+                <p>和传统竞价辅助系统相比，羽扇以效果成本为调整依据和目标，真正的做到了为企业投入产出比负责</p>
+                <p>行业平均投放效果提升20%左右，相当于投放100万元的效果，就帮您省下至少20万元</p>
+                <button style="cursor: pointer">了解更多</button>
+            </div>
+            <div class="imger">
+                <img src="src/提升投放效果@2x.png" alt="">
             </div>
         </div>
-        <div class=""></div>
-        <div class=""></div>
-        <div class=""></div>
-        <div class=""></div>
+        <div class="inde2">
+            <div class="imger">
+                <img src="src/矢量智能对象2@2x.png" alt="">
+            </div>
+            <div class="content">
+                <h2>提高人工效率</h2>
+                <p>对不同维度的数据进行同台展现，可以让优化师<br>一目了然的了解投入相关数据，
+                    轻松判断账户推广缺陷<br>人工管理效率提升51%，每人可管理的账户数是之前的2倍
+                </p>
+                <button style="cursor: pointer"> 了解更多</button>
+            </div>
+        </div>
+        <div class="inde3">
+            <div class="content">
+                <h2>精准智能化</h2>
+                <p>羽扇系统采用多线程调价，根据预设效果成本，对关键词做出实时调整，高效、智能的计算出最优关键词价格。</p>
+                <p>相当于为每个客户增加了40个，7*24小时的优化师。</p>
+                <button style="cursor: pointer">了解更多</button>
+            </div>
+            <div class="imger">
+                <img src="src/矢量智能对象@2x.png" alt="">
+            </div>
+        </div>
+        <div class="inde4">
+            <div class="inde4_title">
+                <h2>产品功能</h2>
+                <p>八大功能，打造一站式，多维度，智能型，精准化的数据产品</p>
+            </div>
+            <div class="jieshao">
+                <ul>
+                    <li>
+                        <div class="left_icon">
+                            <div class="infor_jpg" style="background: url(src/智能优化.png) no-repeat 50% 50%;    background-size: 100% 100%;"></div>
+                            <!--<img src="src/智能优化.png" alt="">-->
+                            <h2>自动竞价</h2>
+                            <p>支持定制个性化投放目标</p>
+                            <p>最优出价一手掌握</p>
+                        </div>
+                        <div class="center_icon">
+                            <div class="infor_jpg" style="background: url(src/极速拓词.png) no-repeat 50% 50%;    background-size: 100% 100%;"></div>
+                            <h2>极速拓词</h2>
+                            <p>凭借系统关联和上下游搜索行动</p>
+                            <p>智能拓展潜在黑马词</p>
+                        </div>
+                        <div class="right_icon">
+                            <div class="infor_jpg" style="background: url(src/实时监测.png) no-repeat 50% 50%;    background-size: 100% 100%;"></div>
+                            <h2>实时监测</h2>
+                            <p>7×24小时无间断监测</p>
+                            <p>最优出价一手掌握</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left_icon">
+                            <div class="infor_jpg" style="background: url(src/排名锁定.png) no-repeat 50% 50%;    background-size: 100% 100%;"></div>
+                            <h2>排名锁定</h2>
+                            <p>最优价格锁定目标排名</p>
+                            <p>上限设置杜绝盲目竞价</p>
+                        </div>
+                        <div class="center_icon">
+                            <div class="infor_jpg" style="background: url(src/智能报表.png) no-repeat 50% 50%;    background-size: 100% 100%;"></div>
+                            <h2>智能报表</h2>
+                            <p>以可视化图形和图表形式</p>
+                            <p>展示多维数据</p>
+                        </div>
+                        <div class="right_icon">
+                            <div class="infor_jpg" style="background: url(src/数据分析.png) no-repeat 50% 50%;    background-size: 100% 100%;"></div>
+                            <h2>数据分析</h2>
+                            <p>以最优效果为导向多层级</p>
+                            <p>多维度的数据对比分析</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left_icon">
+                            <div class="infor_jpg" style="background: url(src/动态着陆页.png) no-repeat 50% 50%;    background-size: 100% 100%;"></div>
+                            <h2>动态着陆页</h2>
+                            <p>智能推荐算法，定制落地页</p>
+                        </div>
+                        <div class="center_icon">
+                            <div class="infor_jpg" style="background: url(src/违规检查.png) no-repeat 50% 50%;    background-size: 100% 100%;"></div>
+                            <h2>违规检查</h2>
+                            <p>定时检查账户违规情况</p>
+                            <p>轻松筛除问题选项</p>
+                        </div>
+                        <div class="right_icon">
+                            <div class="infor_jpg" style="background: url(src/更多.png) no-repeat 50% 50%;    background-size: 100% 100%;"></div>
+                            <h2>更多</h2>
+                            <p>更多详细的了解羽扇</p>
+                            <p>请点击更多</p>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="swiper">
+            <div class="main_visual">
+                <div class="flicking_con">
+                    <a class="on" href="#@">1</a>
+                    <a href="#@">2</a>
+                    <a href="#@">3</a>
+                    <a href="#@">4</a>
+                </div>
+                <div class="main_image">
+                    <ul>
+                        <li>
+                            <div class="main_infor">
+                                <div class="main_inforbox">
+                                    <h2>为什么选择羽扇？</h2>
+                                    <p class="t1">羽扇的核心价值在于为企业提供直观、实时、智能的分析数据和解决方案</p>
+                                    <h3>部署方案够专业</h3>
+                                    <p class="t2">灵活强大的多维分析，高度灵活的漏斗、表格、图形分析，轻松对比效果趋势，快速找<br>出问题，帮助投放人员快速决策，落实完美部署方案。</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                        <li>
+                            <div class="main_infor">
+                                <div class="main_inforbox">
+                                    <h2>为什么选择羽扇？</h2>
+                                    <p class="t1">羽扇的核心价值在于为企业提供直观、实时、智能的分析数据和解决方案</p>
+                                    <h3>部署方案够专业</h3>
+                                    <p class="t2">灵活强大的多维分析，高度灵活的漏斗、表格、图形分析，轻松对比效果趋势，快速找<br>出问题，帮助投放人员快速决策，落实完美部署方案。</p>
+                                </div>
+                            </div>
+                        </li>
+                        </li>
+                        <li> </li>
+                        <li> </li>
+                    </ul>
+                </div>
+                <script>
+                    $(".main_image img").each(function () {
+                        var ww = $(".main_image").width();
+                        var w = $(this).width();
+                        var ml = Math.round((parseInt(ww) - parseInt(w)) / 2);
+                        $(this).css({ marginLeft: ml + "px" })
+                    })
+                </script>
+            </div>
+        </div>
+        <div class="icon">
+            <div class="icon_title">
+                <h2>追求效率的企业都在使用羽扇</h2>
+                <p>全面的产品统计分析服务、权威的移动行业数据解析，帮助你用数据说话</p>
+            </div>
+            <ul class="ul_icon">
+                <li>
+                    <div class="ic">
+                        <img src="src/影音娱乐-拷贝@2x.png" alt="">
+                    </div>
+                    <div class="ic">
+                        <img src="src/哔哩哔哩@2x.png" alt="">
+                    </div>
+                    <div class="ic">
+                        <img src="src/蜻蜓fm@2x.png" alt="">
+                    </div>
+                    <div class="ic">
+                        <img src="src/秀色@2x.png" alt="">
+                    </div>
+                    <div class="ic">
+                        <img src="src/梨视频@2x.png" alt="">
+                    </div>
+                    <div class="ic">
+                        <img src="src/嗨秀@2x.png" alt="">
+                    </div>
+                    <div class="ic">
+                        <img src="src/more@2x.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="ic">
+                        <img src="src/社交通讯@2x.png" alt="">
+                    </div>
+                    <div class="ic">
+                        <img src="src/陌陌@2x.png" alt="">
+                    </div>
+                    <div class="ic">
+                        <img src="src/探探@2x.png" alt="">
+                    </div>
+
+                    <div class="ic">
+                        <img src="src/触宝电话@2x.png" alt="">
+                    </div>
+                    <div class="ic">
+                        <img src="src/有缘网@2x.png" alt="">
+                    </div>
+                    <div class="ic">
+                        <img src="src/富聊@2x.png" alt="">
+                    </div>
+                    <div class="ic">
+                        <img src="src/more@2x.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="ic">
+                        <img src="src/咨询阅读-拷贝@2x.png" alt="">
+                    </div>
+                    <div class="ic">
+                        <img src="src/书旗小说@2x.png" alt="">
+                    </div>
+                    <div class="ic">
+                        <img src="src/一点资讯@2x.png" alt="">
+                    </div>
+
+                    <div class="ic">
+                        <img src="src/有妖气@2x.png" alt="">
+                    </div>
+                    <div class="ic">
+                        <img src="src/熊猫看书@2x.png" alt="">
+                    </div>
+                    <div class="ic">
+                        <img src="src/快看@2x.png" alt="">
+                    </div>
+                    <div class="ic">
+                        <img src="src/more@2x.png" alt="">
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
-<!--foot-->
-    <div class="foot"></div>
-<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!--foot-->
+    <div class="join">
+        <p>
+            加入他们，让自己的营销更加有效，做真正的数字驱动企业
+        </p>
+        <button style="cursor: pointer">申请试用</button>
+    </div>
+    <div class="foot">
+        <div class="banben">
+            <div class="contact">
+                <span class="sp1" style="float: left">联系我们：lingzhong@lzad.cc</span>
+                <span class="sp2" style="float: right">电话：400123123123</span>
+            </div>
+
+            <div class="map">
+                <p>
+                    地址：回龙观黄平路19号院龙旗广场E座1510室
+                </p>
+                <p>
+                    京ICP备15010702号-12011-2016©北京谋事网络科技有限公司版权所有
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <script type="text/javascript" src="js/three.min.js"></script>
 <script type="text/javascript" src="js/canvars.js"></script>
+<script src="js/jquery-1.js"></script>
+<script src="js/jquery_002.js"></script>
+<script src="js/jquery.js"></script>
+<!--<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        //首屏高度
+        $(".banner").css("height",Number($(window).height())-70);
+        $(window).scroll(function(){
+            //输出垂直的滚动距离
+            if(Number($(this).scrollTop())>= Number($(window).height())) {
+                $(".header_box").addClass("header_fixed");
+            }else  {
+                $(".header_box").removeClass("header_fixed");
+            }
+            if(Number($(this).scrollTop())>=Number($(window).height())/2) {
+                $(".inde1 .content,.inde1 .imger").addClass("pop-up")
+            }
+             if(Number($(this).scrollTop())>=Number($(window).height())){
+                $(".inde2 .content,.inde2 .imger").addClass("pop-up")
+            }
+            if(Number($(this).scrollTop())>=Number($(window).height())+200){
+                $(".inde3 .content,.inde3 .imger").addClass("pop-up")
+            }
+        });
+    //首页消息滚动
+            var area = document.getElementById('notice_list_content');
+            area.innerHTML += area.innerHTML;
+            area.scrollTop = 0;
+            var timer;
+            function startMove(){
+                timer = setInterval(scrollUp,50);
+                area.scrollTop++;
+            }
+            function scrollUp() {
+                if(area.scrollTop%40 === 0) {
+                    clearInterval(timer);
+                    setTimeout(startMove,1000);
+                }
+                else {
+                    area.scrollTop++;
+                    if(area.scrollTop >= area.scrollHeight/2) {
+                        area.scrollTop = 0;
+                    }
+                }
+            }
+            setTimeout(startMove,1000);
+
+        //轮播
+        $(".main_visual").hover(function () {
+            $("#btn_prev,#btn_next").fadeIn()
+        }, function () {
+            $("#btn_prev,#btn_next").fadeOut()
+        });
+        $dragBln = false;
+        $(".main_image").touchSlider({
+            flexible: true,
+            speed: 200,
+            btn_prev: $("#btn_prev"),
+            btn_next: $("#btn_next"),
+            paging: $(".flicking_con a"),
+            counter: function (e) {
+                $(".flicking_con a").removeClass("on").eq(e.current - 1).addClass("on");
+            }
+        });
+
+        $(".main_image").bind("mousedown", function () {
+            $dragBln = false;
+        });
+
+        $(".main_image").bind("dragstart", function () {
+            $dragBln = true;
+        });
+
+        $(".main_image a").click(function () {
+            if ($dragBln) {
+                return false;
+            }
+        });
+
+        timer = setInterval(function () {
+            $("#btn_next").click();
+        }, 100);
+
+//        $(".main_visual").hover(function () {
+//            clearInterval(timer);
+//        }, function () {
+//            timer = setInterval(function () {
+//                $("#btn_next").click();
+//            }, 5000);
+//        });
+//
+//        $(".main_image").bind("touchstart", function () {
+//            clearInterval(timer);
+//        }).bind("touchend", function () {
+//            timer = setInterval(function () {
+//                $("#btn_next").click();
+//            }, 5000);
+//        });
+    });
+
+</script>
 </body>
 </html>
